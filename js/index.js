@@ -1,3 +1,7 @@
+document.querySelector(".btn").addEventListener("click", ()=>{
+  location.reload();
+})
+
 const gagnant = document.querySelector("#gagnant");
 const tour = document.querySelector("#tour");
 

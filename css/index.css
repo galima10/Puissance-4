@@ -1,3 +1,8 @@
+.puissance4{
+    transform: scale(.9);
+    position: relative;
+    top: -1em;
+}
 .ens-grille{
     position: relative;
     width: calc(71*7px);
@@ -10,9 +15,10 @@
     left: 16px;
 }
 .ens-desc{
-    width: 140px;
+    width: 180px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 3em;
     margin-top: 3em;
 }
@@ -30,13 +36,13 @@
 h1{
     margin-left: auto;
     margin-right: auto;
-    width: 15em;
+    width: 20em;
     text-align: center;
 }
 h2{
     margin-left: auto;
     margin-right: auto;
-    width: 15em;
+    width: 20em;
     text-align: center;
 }
 
@@ -63,20 +69,21 @@ h2{
     background-color: transparent;
     height: calc(70*6px);
     width: 70px;
-    border: 1px solid;
+    border: 1px solid rgb(49, 71, 134);
     position: relative;
 }
 .colone1{
     height: calc(70*6px);
     width: 70px;
-    border: 1px solid;
+    border: 1px solid rgb(49, 71, 134);
     position: relative;
+    cursor: pointer;
 }
 .case{
     background-color: transparent;
     width: 66px;
     height: 66px;
-    border: 2px solid;
+    border: 2px solid rgb(49, 71, 134);
     border-radius: 50px;
     position: relative;
     overflow: hidden;
@@ -86,7 +93,7 @@ h2{
     background-color: transparent;
     width: 66px;
     height: 66px;
-    border: 2px solid;
+    border: 2px solid rgb(49, 71, 134);
     overflow: hidden;
     position: relative;
 
@@ -99,7 +106,7 @@ h2{
     width: 100%; /* Largeur de la div carrée */
     height: 100%; /* Hauteur de la div carrée */
     background-color: transparent;
-    border: 25px solid;
+    border: 25px solid rgb(49, 71, 134);
     border-radius: 50%;
   }
 
@@ -109,23 +116,39 @@ h2{
 
 .jeton{
     position: absolute;
-    width: 66px;
-    height: 66px;
+    width: 54px;
+    height: 54px;
     margin-left: 2px;
     margin-top: 2px;
     transition: 1s;
     top: 0;
     border-radius: 50px;
+    
 }
 
 .jaune{
     background-color: yellow;
+    border: 6px solid rgb(200, 200, 1);
 }
 
 .rouge{
     background-color: red;
+    border: 6px solid rgb(180, 0, 0);
 }
 
+.btn{
+    background-color: rgb(49, 71, 134);
+    color: white;
+    font-size: 1.2em;
+    height: 4em;
+    width: 8em;
+    cursor: pointer;
+    position: relative;
+    left: calc(50% - 3em);
+    margin-top: 1em;
+    border-radius: 1.5em;
+    border: white;
+}
 
 
 @media (max-width: 767px) {
@@ -136,8 +159,20 @@ h2{
         margin-bottom: 5em;
     }
     .puissance4{
-        transform: scale(.5);
+        transform: scale(.6);
     }
+    body{
+        width: 60px;
+    }
+    h1{
+        width: 15em;
+    }
+    .btn{
+        left: 300%;
+        margin-top: 5em;
+        border-radius: 1.2em;
+    }
+    
 }
 
 @media (max-width: 767px) and (orientation: landscape) {
