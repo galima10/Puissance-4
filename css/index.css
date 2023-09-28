@@ -1,0 +1,145 @@
+.ens-grille{
+    position: relative;
+    width: calc(71*7px);
+    height: calc(70*6px);
+    margin: auto;
+}
+.description{
+    position: absolute;
+    width: 170px;
+    left: 16px;
+}
+.ens-desc{
+    width: 140px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+.text-desc{
+    font-size: 1.5em;
+    display: inline;
+    font-weight: bold;
+}
+.legende{
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+    text-align: center;
+}
+h2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+    text-align: center;
+}
+
+.grille{
+    background-color: transparent;
+    width: calc(70*7px);
+    height: calc(70*7px);
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.grille1{
+    background-color: transparent;
+    width: calc(70*7px);
+    height: calc(70*7px);
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.colone{
+    background-color: transparent;
+    height: calc(70*6px);
+    width: 70px;
+    border: 1px solid;
+    position: relative;
+}
+.colone1{
+    height: calc(70*6px);
+    width: 70px;
+    border: 1px solid;
+    position: relative;
+}
+.case{
+    background-color: transparent;
+    width: 66px;
+    height: 66px;
+    border: 2px solid;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.case1{
+    background-color: transparent;
+    width: 66px;
+    height: 66px;
+    border: 2px solid;
+    overflow: hidden;
+    position: relative;
+
+}
+
+  .case2 {
+    position: absolute;
+    right: -25px;
+    top: -25px;
+    width: 100%; /* Largeur de la div carrée */
+    height: 100%; /* Hauteur de la div carrée */
+    background-color: transparent;
+    border: 25px solid;
+    border-radius: 50%;
+  }
+
+  
+
+
+
+.jeton{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    margin-left: 2px;
+    margin-top: 2px;
+    transition: 1s;
+    top: 0;
+    border-radius: 50px;
+}
+
+.jaune{
+    background-color: yellow;
+}
+
+.rouge{
+    background-color: red;
+}
+
+
+
+@media (max-width: 767px) {
+    .description{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5em;
+    }
+    .puissance4{
+        transform: scale(.5);
+    }
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+    
+}
