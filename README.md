@@ -1,0 +1,1 @@
+Un jeu dans lequel vous jouerez à 2 en local sur le même navigateur. Les règles du Puissance 4 : une grille vous fait face et un à un vous allez mettre des jetons de votre couleur dans la grille, le but étant de formé une rangée de 4 jetons de votre couleur en horizontal, vertical ou diagonal.
